@@ -29,6 +29,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs geometry_msgs mess
     VigirRobotStateCommand.msg
     VigirRobotFault.msg
     VigirRobotStatus.msg
+    VigirHandMass.msg
     VigirPPSOffset.msg
  )
 

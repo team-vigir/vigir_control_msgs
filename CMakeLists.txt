@@ -1,27 +1,12 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(vigir_control_msgs)
 
-## Find catkin macros and libraries
-## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
-## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs geometry_msgs message_generation)
 
-## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
-
-## Uncomment this if the package has a setup.py. This macro ensures
-## modules and scripts declared therein get installed
-# catkin_python_setup()
-
-#######################################
-## Declare ROS messages and services ##
-#######################################
-
-## Generate messages in the 'msg' folder
  add_message_files(
     FILES
     VigirControllerStatistics.msg
-#    FlorControlMode.msg
+    VigirControlMode.msg
     VigirControlModeCommand.msg
     VigirControllerFunctionUpdate.msg
 #    FlorGravityCompensationGain.msg
